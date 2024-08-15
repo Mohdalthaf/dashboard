@@ -203,8 +203,8 @@ body {
     gap: var(--gap-7xs);
   }
   .expand-more-icon {
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
     position: relative;
   }
   .expand-logo {
