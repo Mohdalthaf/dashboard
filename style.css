@@ -356,6 +356,10 @@ body {
     line-height: 140%;
     color: #fff;
   }
+
+  .financial-link {
+    text-decoration: none; /* Removes the underline */
+  }
   .resource-dropdown {
     display: flex;
     flex-direction: column;
@@ -397,6 +401,7 @@ body {
     line-height: 20px;
     display: inline-block;
     min-width: 52px;
+    color: #fff;
   }
   .mailbox-wrapper {
     position: absolute;
@@ -447,6 +452,7 @@ body {
     line-height: 20px;
     display: inline-block;
     min-width: 77px;
+    color: #fff;
   }
   .frame-wrapper6 {
     width: 229px;
@@ -469,6 +475,7 @@ body {
     line-height: 16px;
     display: inline-block;
     min-width: 79px;
+    color: #fff;
   }
   .empty-space {
     text-transform: uppercase;
@@ -531,6 +538,7 @@ body {
     line-height: 16px;
     display: inline-block;
     min-width: 84px;
+    color: #fff;
   }
   .notification-icon {
     display: flex;
@@ -544,6 +552,7 @@ body {
     line-height: 16px;
     display: inline-block;
     min-width: 80px;
+    color: #fff;
   }
   .expand-more-icon1 {
     height: 24.1px;
