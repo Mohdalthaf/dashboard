@@ -302,6 +302,7 @@ body {
     line-height: 20px;
     display: inline-block;
     min-width: 84px;
+    color: #fff;
   }
   .arrow-drop-down-icon {
     width: 8.8px;
@@ -353,6 +354,7 @@ body {
   .financial-resources {
     position: relative;
     line-height: 140%;
+    color: #fff;
   }
   .resource-dropdown {
     display: flex;
@@ -1404,7 +1406,7 @@ body {
     font-size: var(--font-size-xs);
   }
   .tasks,
-  .view-all2 {
+  .view-all2, .view-all1 {
     position: relative;
     font-weight: 500;
     display: inline-block;
@@ -1416,11 +1418,15 @@ body {
     font-family: inherit;
     min-width: 62px;
   }
-  .view-all2 {
+  .view-all2, .view-all1 {
     text-decoration: underline;
     line-height: 20px;
     min-width: 52px;
   }
+
+  .payment-rows, .payment-rows2 {
+    display: none;
+  } 
   .tasks-title-container {
     display: flex;
     flex-direction: row;
@@ -1810,6 +1816,15 @@ body {
   .tasks-header {
     gap: 19.5px;
   }
+
+  .task-row, .task-rows, .task-rows3 {
+    display: none; /* Initially hide all task rows including task-rows3 */
+  }
+
+  .payment-rows, .payment-rows2 {
+    display: none;
+  }
+
   .payment-history1 {
     margin: 0;
     position: relative;
