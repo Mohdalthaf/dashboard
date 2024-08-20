@@ -684,10 +684,31 @@ body {
     color: var(--color-gray-200);
   }
   .page-content {
-    width: 293px;
+    width: 312px;
     flex-direction: column;
     min-width: 293px;
   }
+  /* small bar */
+  .small-bar{
+    
+    display: none;
+  }
+  .sm-bar{
+    background-color: rgb(28 37 75);
+  }
+  .small-bar-show{
+    display: inline-block;
+  }
+  .page-content-hide{
+    display: none;
+  }
+
+
+  .hidden {
+    display: none;
+  }
+  
+
   .frame-child {
     width: 423px;
     height: 1019px;
